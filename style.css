@@ -11,7 +11,7 @@
 }
 .image {
   position: absolute;
-  top: 25vh;
+  top: 45vh;
 }
 .line {
   margin-top: -25px;
@@ -118,4 +118,8 @@
     transform: scaleX(1);
     transform-origin: left;
   }
+  .image {
+  position: absolute;
+  top: 25vh;
+}
 }
