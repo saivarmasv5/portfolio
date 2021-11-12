@@ -11,7 +11,7 @@
 }
 .image {
   position: absolute;
-  top: 45vh;
+  top:45vh;
 }
 .line {
   margin-top: -25px;
@@ -25,26 +25,24 @@
 .work {
   font-size: 63px;
 }
-.main-text {
-  height: 100vh;
-}
+
 .button {
   padding: 6px 20px !important;
   border-radius: 10px !important;
   font-size: 25px !important;
 }
 .main-page {
-  height: 110vh;
+  height: 100vh;
 }
-.about {
-  height: 90vh;
+.skills{
+  margin-bottom: 60px;
 }
 .about-text,
 .skills-text {
   font-size: 60px;
 }
 .about-me {
-  height: 73vh;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,9 +50,7 @@
 .about-name {
   font-size: 47px;
 }
-.skills {
-  height: 100vh;
-}
+
 .bar-html,
 .bar-css,
 .bar-bstp,
@@ -118,8 +114,11 @@
     transform: scaleX(1);
     transform-origin: left;
   }
-  .image {
-  position: absolute;
-  top: 25vh;
+  
 }
+@media (min-width: 768px){
+  .image {
+    position: absolute;
+    top:25vh;
+  }
 }
