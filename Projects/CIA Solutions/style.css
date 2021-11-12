@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dark-main{
+    background-color: #262626;
+    color: white;
+}
+.empty{
+    height: 55px;
+}
+.main{
+    background-image: url(img/main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.divposition{
+    right: 0px;
+    width: 100%;
+}
+.second{
+    background-image: url(img/second.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head{
+    height: 50px;
+}
+.last{
+    background-image: url(img/last.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.registerButton{
+    background: none;
+    border: none;
+    padding: 5px 20px;
+    font-size: 25px;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
