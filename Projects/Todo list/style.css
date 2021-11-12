@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #bdc3c7; 
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); 
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #bdc3c7
+  ); 
+}
+.todo-container {
+  width: 70%;
+  height: 90vh;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+}
+.heading {
+  color: black;
+  margin-top: 15px;
+}
+.input-container {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#input,
+.assign {
+  width: 70%;
+  height: 30px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+#input {
+  padding: 0px 10px;
+}
+.assign {
+  width: 50px;
+  background-color: #75e5fc;
+  border-color: #75e5fc;
+}
+#alert {
+  color: #ec2828;
+}
+.list-container {
+  width: 90%;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 50px;
+}
+#todo-text {
+  word-wrap: break-word;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+.add-list {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+.done-list {
+  background-color: aqua;
+}
+
+.text-container {
+  width: 70%;
+  padding: 0px 10px;
+}
+.done,
+.del {
+  width: 45px;
+  border-radius: 25px;
+  background-color: #1bf35c;
+  margin-left: 10px;
+  padding: 8px;
+}
+.del {
+  background-color: #ec2828;
+  margin-right: 10px;
+}
+button {
+  cursor: pointer;
+}
+.completed {
+  color: #1bf35c;
+}
+
+#counting {
+  position: absolute;
+  bottom: 30px;
+}

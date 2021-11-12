@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin : 0px;
+    padding :0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.menu{
+    background-image:url(img/main.png);
+    background-position: center;
+    width: 100%;
+    height: 430px;
+}
+.icon{
+    color: white;
+} 
+.link{
+    margin-left: 15px !important;
+}
+.text{
+    padding-left: 15px;
+}
+.last{
+    background-image: url(img/bottom.png);
+}
+.lastchild{
+    width: 50% !important;
+    height: auto;
+
+}
