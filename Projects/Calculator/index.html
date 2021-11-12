@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="c1">
+
+    </div>
+    <div class="c2">
+        
+    </div>
+    <div class="container">
+        <div class="output">
+            <input type="text" value="" id="display">
+        </div>
+        <div class="operator-fst">
+            <button class="spn2" onclick="opt('/')">%</button>
+            <button class="spn2" onclick="opt('*')">*</button>
+            <button class="spn1" onclick="clr()">clear</button>
+        </div>
+        <div class="combo">
+            <div class="key">
+                <button onclick="opt(7)">7</button>
+                <button onclick="opt(8)">8</button>
+                <button onclick="opt(9)">9</button>
+                <button onclick="opt(4)">4</button>
+                <button onclick="opt(5)">5</button>
+                <button onclick="opt(6)">6</button>
+                <button onclick="opt(1)">1</button>
+                <button onclick="opt(2)">2</button>
+                <button onclick="opt(3)">3</button>
+                <button onclick="opt(0)" class="span">0</button>
+                <button onclick="opt('.')">.</button>
+            </div>
+            <div class="operator-nxt">
+                <button onclick="opt('-')" class="nxt-spn1">-</button>
+                <button onclick="opt('+')" class="nxt-spn2">+</button>
+                <button onclick="solve()" class="nxt-spn2">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
